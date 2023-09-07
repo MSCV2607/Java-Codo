@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!-- method es para acceder a un servidor -->
+    <!-- select es el que aparece por defecto -->
+    <form method="post" action="IngresoAlumno">
+
+        <label for="">Selecciones Lenguaje</label>
+        <select>
+            <option value="1">Java</option>
+            <option value="2" selected>Python</option>
+            <option value="3">PHP</option>
+        </select>
+        <br>
+        <br>
+        <select>
+            <optgroup label="CABA">
+                <option value="">San Cristobal</option>
+                <option value="">Retiro</option>
+                <option value="">Monterrat</option>
+            </optgroup>
+            <optgroup label="ResArt">
+                <option value="">Chaco</option>
+                <option value="">Cordoba</option>
+                <option value="">Ushuaia</option>
+
+            </optgroup>
+        </select>
+
+        <hr>
+        <br>
+        <br>
+
+        <label for="">Tiene Notebook</label>
+        <label for="">Si</label>
+        <input type="radio" value="1" name="Notebook">
+        <label for="">No</label>
+        <input type="radio" value="0" name="Notebook">
+
+        <hr>
+        <br>
+        <br>
+
+        <label for="">Es ingresante</label>
+        <input type="checkbox">
+
+
+
+    </form>
+</body>
+</html>
