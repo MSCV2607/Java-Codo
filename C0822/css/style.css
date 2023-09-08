@@ -1,0 +1,26 @@
+/*Selector de etiqueta*/
+body { background-color: bisque;}
+h1{color:red;}
+p{
+    color: violet;
+    background-color: aqua;
+}
+
+/*Selector de ID*/
+/*El color de id pesa mas*/
+#sinFondo {
+    background-color: lightgray;
+    color: black;
+}
+
+/*Selector de clases*/
+.colorTipografia{
+    color: chartreuse;
+    background-color: black;
+}
+
+.box{
+    background-color: brown;
+    height: 50px; /*Alto*/
+    width: 100px; /*Ancho*/
+}
