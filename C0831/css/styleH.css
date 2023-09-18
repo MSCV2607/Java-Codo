@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu {
+background-color: black;
+color: white;
+width: 100%;
+height: 70px;
+text-align: center;
+list-style-type: none;
+box-sizing: border-box;
+padding-top: 20px;
+}
+
+.menu li {
+font-size: 24px;
+display: inline;
+margin-left: 10px;
+}
+
+.menu li a {
+color: crimson;
+text-decoration: none;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-top: 30px;
+}
+
+/*box-sizing: border-box; para que la caja mida lo que pusimos*/
+
+#caja2 {
+    /*border: 5px solid blue;*/
+    border-bottom: 5px solid blue;
+    border-top: 5px solid yellow;
+    border-left: 5px dashed green;
+    border-right: 5px dashed black;
+    box-sizing: border-box;
+    position: relative;
+    left: 450px; /*left-right-top-botton para mover la caja*/
+    top: -100px;
+}
+
+#caja3 {
+    padding-left: 20px;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+/*overflow: hidden; esconde el texto que sobresale*/
+/*overflow: scroll; para scrolear y ver el texto*/
+
+#caja4 {
+    overflow: hidden;
+    overflow: scroll;
+    box-sizing: border-box;
+}

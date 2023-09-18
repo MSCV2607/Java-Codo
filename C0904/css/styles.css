@@ -1,0 +1,18 @@
+/* #socio > p Selector de hijos
+{
+    color: red;
+} */
+
+/*div ~ p { mismas lineas jerarquicas 
+    color: red;
+}*/
+
+/*div + p { pinta el primer hermano de la p 
+    color: red;
+}*/
+
+/*div[lang="sp"] { selecciona el div por su lang o tambien se puede utlizar class
+    background-color: red;
+}
+*/
+

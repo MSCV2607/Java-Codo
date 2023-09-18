@@ -1,0 +1,37 @@
+#cuadrado
+{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+/*
+#cuadrado:hover (hover al pasar el mouse por el cuadrado cambia)
+{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    color: red;
+    text-align: center;
+}
+*/
+
+#Nombre {
+    background-color: green;
+}
+
+/*#Nombre:focus { (focus cuando hago click cambia el color)
+    background-color: blue;
+}
+*/
+
+a {
+    background-color: red;
+}
+
+/*a:active { (active cuando hago click que me lleve al link cambia el color)
+    background-color: aqua;
+}
+*/
