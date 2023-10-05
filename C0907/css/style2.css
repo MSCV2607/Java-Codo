@@ -1,0 +1,59 @@
+* 
+{
+
+    margin: 0;
+    padding: 0;
+
+
+
+}
+
+div{
+
+
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    
+
+
+}
+
+
+
+.container
+{
+
+
+    width: 80%;
+    height: 200px;
+    background-color: gray;
+    display: flex;
+
+    /*Centra los elementos*/
+    justify-content: center;
+    /*Los elementos se pegan a la izquierda*/
+    justify-content: left;
+    /*Los elementos se pegan a la derecha*/
+    justify-content: right;
+    /*Se pegan a la izquierda*/
+    justify-content: flex-start;
+    /*Deja espacio entre cajas*/
+    justify-content: space-around;
+    /*Diferentes espacios*/
+    justify-content: space-between;
+    /*Diferentes espacios*/
+    justify-content: space-evenly;
+
+    /*Trabajar con cada uno de los items*/
+    align-items: center;
+
+}
+
+#dos 
+{
+
+    /*Para trabajar con una caja en particular*/
+    align-self: end;
+
+}

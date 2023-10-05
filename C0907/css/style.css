@@ -1,0 +1,93 @@
+#uno,#dos,#tres, #cuatro {
+
+    width: 200px;
+    height: 200px;
+ 
+
+
+}
+
+#cuatro {
+
+
+   
+    background-color: violet;
+
+
+
+}
+
+
+/*
+Moviendo caja
+
+#dos {
+
+
+    left: 300px;
+    top: 200px;
+
+
+}
+
+
+#tres {
+
+
+    top: -200px;
+
+
+}
+
+Cuatro esta en el flujo de html y no se puede mover
+#cuatro {
+
+
+    left: 300px;
+    top: 200px;
+
+
+}
+*/
+
+/*Posicionamiento absoluto parten todos del mismo punto*/
+#uno {
+
+
+    background-color: brown;
+    position: absolute;
+    left: 300px;
+
+}
+
+#dos {
+
+
+    background-color: violet;
+    position: absolute;
+    left: 600px;
+
+}
+
+
+#tres {
+
+    background-color: red;
+    position: absolute;
+    left: 900px;
+
+
+
+
+}
+
+
+#cuatro {
+
+
+    background-color: green;
+    position: absolute;
+    left: 0;
+
+
+}

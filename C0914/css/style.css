@@ -1,0 +1,18 @@
+.alertCentrado 
+{
+    margin: auto;
+    width: 50%;
+}
+
+#contenedor
+{
+    width: 80%;
+    margin: auto;
+}
+
+#uno
+{
+
+    background-color:dimgray !important;
+
+}
